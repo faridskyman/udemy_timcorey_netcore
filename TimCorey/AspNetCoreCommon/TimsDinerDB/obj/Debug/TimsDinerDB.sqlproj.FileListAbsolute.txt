@@ -1,0 +1,10 @@
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\bin\Debug\TimsDinerDB.dacpac
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\bin\Debug\TimsDinerDB.dll
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\bin\Debug\TimsDinerDB.pdb
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\TimsDinerDB.sqlprojAssemblyReference.cache
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\Model.xml
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\refactor.xml
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\postdeploy.sql
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\predeploy.sql
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\TimsDinerDB.dll
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\TimsDinerDB\obj\Debug\TimsDinerDB.pdb

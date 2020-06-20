@@ -1,0 +1,8 @@
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\bin\Debug\netcoreapp3.1\DataLIbrary.deps.json
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\bin\Debug\netcoreapp3.1\DataLIbrary.dll
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\obj\Debug\netcoreapp3.1\DataLIbrary.csprojAssemblyReference.cache
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\obj\Debug\netcoreapp3.1\DataLIbrary.AssemblyInfoInputs.cache
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\obj\Debug\netcoreapp3.1\DataLIbrary.AssemblyInfo.cs
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\bin\Debug\netcoreapp3.1\DataLIbrary.pdb
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\obj\Debug\netcoreapp3.1\DataLIbrary.dll
+I:\Udemy_Projects\TimCorey\AspNetCoreCommon\DataLIbrary\obj\Debug\netcoreapp3.1\DataLIbrary.pdb
