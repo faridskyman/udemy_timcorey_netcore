@@ -1,4 +1,5 @@
 ﻿using DataLIbrary.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace DataLIbrary.Data
@@ -9,5 +10,6 @@ namespace DataLIbrary.Data
         Task<int> DeleteOrder(int orderID);
         Task<OrderModel> GetOrderById(int orderId);
         Task<int> UpdateOrderName(int orderID, string orderName);
+        Task<List<OrderModel>> GetAllOrders();
     }
 }

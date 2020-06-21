@@ -1,0 +1,36 @@
+﻿@page
+@model RPDemoApp.ListOrderModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>OrderID</th>
+            <th>Food ID</th>
+            <th>Order Date</th>
+            <th>Total</th>
+            <th>Order Name</th>
+            <th>Details</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+        <tr>
+            <td>@order.Id</td>
+            <td>@order.FoodID</td>
+            <td>@string.Format("{0:dd/MMM/yyyy}", order.OrderDate)</td>
+            <td>@string.Format("{0:C}", order.Total)</td>
+            <td>@order.OrderName</td>
+            <td><a href="Display?Id=@order.Id">Details</a></td>
+            <td><a href="Delete?Id=@order.Id">Delete</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
+

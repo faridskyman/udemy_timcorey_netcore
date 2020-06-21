@@ -62,5 +62,12 @@ namespace DataLIbrary.Data
             return recs.FirstOrDefault();
         }
 
+        public Task<List<OrderModel>> GetAllOrders()
+        {
+            return _dataAccess.LoadData<OrderModel, dynamic>(
+                "spOrdersAll", new { }, _connectionString.SqlConnectionName
+                );
+        }
+
     }
 }

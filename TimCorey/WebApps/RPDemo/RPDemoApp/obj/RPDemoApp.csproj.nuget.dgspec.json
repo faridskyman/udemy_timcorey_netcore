@@ -4,14 +4,14 @@
     "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj": {}
   },
   "projects": {
-    "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj": {
+    "I:\\Udemy_Projects\\TimCorey\\AspNetCoreCommon\\DataLIbrary\\DataLIbrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj",
-        "projectName": "RPDemoApp",
-        "projectPath": "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj",
+        "projectUniqueName": "I:\\Udemy_Projects\\TimCorey\\AspNetCoreCommon\\DataLIbrary\\DataLIbrary.csproj",
+        "projectName": "DataLIbrary",
+        "projectPath": "I:\\Udemy_Projects\\TimCorey\\AspNetCoreCommon\\DataLIbrary\\DataLIbrary.csproj",
         "packagesPath": "C:\\Users\\skyla\\.nuget\\packages\\",
-        "outputPath": "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\obj\\",
+        "outputPath": "I:\\Udemy_Projects\\TimCorey\\AspNetCoreCommon\\DataLIbrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -52,6 +52,83 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj",
+        "projectName": "RPDemoApp",
+        "projectPath": "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\RPDemoApp.csproj",
+        "packagesPath": "C:\\Users\\skyla\\.nuget\\packages\\",
+        "outputPath": "I:\\Udemy_Projects\\TimCorey\\WebApps\\RPDemo\\RPDemoApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\skyla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "I:\\Udemy_Projects\\TimCorey\\AspNetCoreCommon\\DataLIbrary\\DataLIbrary.csproj": {
+                "projectPath": "I:\\Udemy_Projects\\TimCorey\\AspNetCoreCommon\\DataLIbrary\\DataLIbrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
